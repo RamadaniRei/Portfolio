@@ -2,23 +2,25 @@ import React from "react";
 import logo from "../assets/react.svg";
 const Navbar = () => {
   return (
-    <nav className="bg-indigo-700 border-b border-indigo-500">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className="flex h-20 items-center justify-between">
-          <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
-            <img className="h-10 w-auto" src={logo} alt="React Jobs" />
-            <span className="hidden md:block text-white text-2xl font-bold ml-2">
-              React Jobs
-            </span>
-            <div className="md:ml-auto">
-              <div className="flex space-x-2">
-                <div>Home</div>
-                <div>Jobs</div>
-                <div>Add Job</div>
-              </div>
-            </div>
-          </div>
+    <nav className="flex justify-between w-full p-3 bg-blue-700">
+      <div>
+        <img src={logo} alt="logo" />
+      </div>
+      <div className="flex gap-20">
+        <div className="text-white decoration-white">
+          <a href="#">Home</a>
         </div>
+        <div>
+          <a href="#">Projects</a>
+        </div>
+        <div>
+          <a href="#">Skills</a>
+        </div>
+      </div>
+      <div>
+        <a href="#" className="pr-5">
+          Contact me
+        </a>
       </div>
     </nav>
   );
