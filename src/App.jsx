@@ -1,4 +1,3 @@
-import "./App.css";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/hero";
@@ -8,14 +7,14 @@ import SkillSection from "./components/SkillSection";
 
 export const App = () => {
   return (
-    <>
+    <div className="w-full">
       <Navbar />
       <Hero />
       <SkillSection />
       <PortfolioSection />
       <Footer />
       <Contact />
-    </>
+    </div>
   );
 };
 
