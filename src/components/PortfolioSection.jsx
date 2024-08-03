@@ -26,7 +26,8 @@ const PortfolioSection = () => {
               </p>
             </div>
             <a
-              href="https://github.com/RamadaniRei/Time-Report-UI"
+              target="_blank"
+              href="https://github.com/RamadaniRei/Tip-Calculator-UI"
               className=" flex justify-end text-blue-700 "
             >
               {"Visit Link ->"}
@@ -49,6 +50,7 @@ const PortfolioSection = () => {
               </p>
             </div>
             <a
+              target="_blank"
               href="https://github.com/RamadaniRei/Time-Report-UI"
               className=" flex justify-end text-blue-700 "
             >
@@ -71,7 +73,8 @@ const PortfolioSection = () => {
               </p>
             </div>
             <a
-              href="https://github.com/RamadaniRei/Time-Report-UI"
+              target="_blank"
+              href="https://github.com/RamadaniRei/User-social-media-links"
               className=" flex justify-end text-blue-700 "
             >
               {"Visit Link ->"}
@@ -93,7 +96,8 @@ const PortfolioSection = () => {
                 complements your style and captivates your senses.
               </p>
               <a
-                href="https://github.com/RamadaniRei/Time-Report-UI"
+                target="_blank"
+                href="https://github.com/RamadaniRei/Perfume-Buy-UI"
                 className=" flex justify-end text-blue-700 "
               >
                 {"Visit Link ->"}
