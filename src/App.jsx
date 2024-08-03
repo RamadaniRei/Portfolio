@@ -12,8 +12,8 @@ export const App = () => {
       <Hero />
       <SkillSection />
       <PortfolioSection />
-      <Footer />
       <Contact />
+      <Footer />
     </div>
   );
 };
